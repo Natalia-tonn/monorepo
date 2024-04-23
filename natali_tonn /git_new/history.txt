@@ -1,0 +1,16 @@
+  388  cd git_new
+  389  ls -al
+  390  git branch
+  391  git branch feature
+  392  git branch
+  393  git commit -m "Изменения"
+  394  echo "Изменили файл" >> README.md
+  395  git commit -m "Add changes to README.md and .gitignore"
+  396  git push origin feature
+  397  git checkout feature  
+  398  git commit --amend -m "New commit message" 
+  399  git log
+  400  git checkout main
+  401  git merge feature 
+  402  git add history.txt 
+  403  history
